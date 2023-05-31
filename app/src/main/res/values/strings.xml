@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Books_v1_1</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_page">LOGIN PAGE</string>
+    <string name="don_t_have_account_sign_up">Don\'t have account? Sign Up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register_page">REGISTER PAGE</string>
+    <string name="have_account_login_now">Have account? Login now</string>
+    <string name="log_out">Log Out</string>
+    <string name="save_data">Save data</string>
+    <string name="login_text">Войти</string>
+    <string name="Trash">Корзина</string>
+    <string name="Home">Главная</string>
+    <string name="Chat">Чат</string>
+</resources>
