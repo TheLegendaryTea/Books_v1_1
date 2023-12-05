@@ -59,7 +59,7 @@ class HomeActivity : AppCompatActivity(){
                 // Проходим по всем дочерним элементам
                 for (bookSnapshot in dataSnapshot.children) {
                     // Получаем значения полей книги
-                    val about = ""// bookSnapshot.child("About").getValue(String::class.java)
+                    val about = ""+bookSnapshot.child("About").getValue(String::class.java)
                     val author = "Автор: "+bookSnapshot.child("Author").getValue(String::class.java)
                     val cost = "Цена: "+bookSnapshot.child("Cost").getValue(Int::class.java)
                     val name =  bookSnapshot.child("Name").getValue(String::class.java)

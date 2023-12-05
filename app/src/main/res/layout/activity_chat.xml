@@ -8,6 +8,7 @@
     tools:context=".ChatActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@color/gray"
@@ -19,21 +20,57 @@
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:backgroundTint="@color/black"
-            android:text="@string/Trash" />
+            android:text="@string/Trash"
+            android:textColor="@color/white" />
 
         <Button
             android:id="@+id/chat_home"
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:backgroundTint="@color/black"
-            android:text="@string/Home" />
+            android:text="@string/Home"
+            android:textColor="@color/white" />
 
         <Button
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:backgroundTint="@color/gray"
-            android:text="@string/Chat" />
+            android:text="@string/Chat"
+            android:textColor="@color/white" />
 
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/messageField"
+        android:layout_width="253dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Введите текст"
+        android:inputType="text"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Отправить"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewChat"
+        android:layout_width="409dp"
+        android:layout_height="577dp"
+        android:layout_marginTop="48dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

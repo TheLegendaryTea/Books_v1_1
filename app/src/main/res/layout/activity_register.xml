@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="100dp"
+    android:background="@color/yellow"
     tools:context="com.example.log.RegisterActivity">
 
     <EditText
@@ -46,7 +47,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="64dp"
         android:enabled="true"
+        android:textColor="@color/white"
         android:text="@string/sign_up"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
